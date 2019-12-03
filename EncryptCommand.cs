@@ -26,7 +26,7 @@ namespace RSA
                 BigInteger n = BigInteger.Parse(Console.ReadLine());
 
                 Console.Write("Enter e: ");
-                int e = int.Parse(Console.ReadLine());
+                BigInteger e = BigInteger.Parse(Console.ReadLine());
 
                 this.key = new PublicKey(n, e);
             }
